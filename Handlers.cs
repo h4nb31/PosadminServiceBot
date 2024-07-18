@@ -24,7 +24,7 @@ class Handlers
             //var FullChatInfo = message.Chat;
             var chatId = message.Chat.Id;
             var TopicId = message.MessageThreadId;
-            var userInfo = message.From;
+            var userInfo = message.From ?? throw new ArgumentNullException(nameof(message.From) + "is null");
 
 
             //Сообщение для запроса
@@ -35,7 +35,7 @@ class Handlers
             //формирование ссылки
             string absChatId = (chatId.ToString()).Substring(3); //Убираем -100 у ID чата
             string messageLink = $"https://t.me/c/{absChatId}/{message.MessageId}"; //ссылка на сообщение чата для кнопки
-
+            
             Console.WriteLine($"\nReceived: '{messageText}'\nChat: '{chatId}\nTopic id: {TopicId}'\nUser: '{userInfo.Id} - {userInfo.FirstName} {userInfo.LastName}: @{userInfo.Username}'"); //Лог в консоль
 
             // Сообщение "повтор"
