@@ -7,7 +7,9 @@ using Telegram.Bot.Types.Enums;
 
 public class BotService : IHostedService
 {
-    private readonly string _botToken = "7073838502:AAFaKEO5d5hGUcoqqH2xIYK3rnSzcbAwCa8";
+   
+    //Токен рабочего бота 7073838502:AAFaKEO5d5hGUcoqqH2xIYK3rnSzcbAwCa8
+    private readonly string _botToken = "7073838502:AAFaKEO5d5hGUcoqqH2xIYK3rnSzcbAwCa8"; 
     private TelegramBotClient? _botClient;
     private CancellationTokenSource? _cts;  //Токен Отмены
 
