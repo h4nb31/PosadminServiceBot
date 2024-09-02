@@ -151,7 +151,7 @@ class Handlers
                 cancellationToken: cancellationToken);
                 return;
             }
-            else if (userInfo.Id != 6017481524)
+            else if (messageText.Contains("/test") && userInfo.Id != 6017481524)
             {
                 Message sentMessage = await botClient.SendTextMessageAsync(
                 chatId: Chat_ids["Test_chat"],
