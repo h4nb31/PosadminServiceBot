@@ -52,7 +52,8 @@ class Handlers
     private static Dictionary<string,string> Chat_ids = new Dictionary<string,string>()
     {
         {"Test_chat","-4278844400"}, 
-        {"Work_chat","-1001902270586"}
+        {"Work_chat","-1001902270586"},
+        {"1_line_chat","-1002088486459"}
     };
 
     //Словарь с именами сотрудников и их user_name в телеграме
@@ -128,8 +129,8 @@ class Handlers
             // Сообщение "повтор" @pos_chatService_bot
             if (messageText.Contains("@pos_chatService_bot")){
                 Message sentMessage = await botClient.SendTextMessageAsync(
-                chatId: Chat_ids["Work_chat"],  //Чат для тестов
-                messageThreadId: 27,
+                chatId: Chat_ids["1_line_chat"],
+                //messageThreadId: 27,
                 text: FinalString + RespondText,
                 //replyToMessageId: message.MessageId,
                 replyMarkup: new InlineKeyboardMarkup(
@@ -146,7 +147,7 @@ class Handlers
                 Message sentMessage = await botClient.SendTextMessageAsync(
                 chatId: chatId,
                 messageThreadId: TopicId,
-                text: "Status is OK",
+                text: $"Status is OK\nChat Id: {chatId}" ,
                 cancellationToken: cancellationToken);
                 return;
             }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ASXtTXQUKDc=",
+  "dgSpecHash": "M9sOw5pkG8S5Cf5PK5GaRrMFXpjeZRhRZ6IybiwrA3H9L7YHyiG1/mFi1zV6ozv0WXzZFF7mJVIgZTMmDOVYjA==",
   "success": true,
   "projectFilePath": "D:\\MY_FOLDER\\Work\\4_CODE\\C#\\Projects\\ServiceChatBot\\ServiceChatBot.csproj",
   "expectedPackageFiles": [
@@ -38,11 +38,7 @@
     "C:\\Users\\Amir\\.nuget\\packages\\system.serviceprocess.servicecontroller\\8.0.0\\system.serviceprocess.servicecontroller.8.0.0.nupkg.sha512",
     "C:\\Users\\Amir\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\Amir\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
-    "C:\\Users\\Amir\\.nuget\\packages\\telegram.bot\\19.0.0\\telegram.bot.19.0.0.nupkg.sha512",
-    "C:\\Users\\Amir\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.19\\microsoft.netcore.app.ref.7.0.19.nupkg.sha512",
-    "C:\\Users\\Amir\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.19\\microsoft.windowsdesktop.app.ref.7.0.19.nupkg.sha512",
-    "C:\\Users\\Amir\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.19\\microsoft.aspnetcore.app.ref.7.0.19.nupkg.sha512",
-    "C:\\Users\\Amir\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.19\\microsoft.netcore.app.host.win-x64.7.0.19.nupkg.sha512"
+    "C:\\Users\\Amir\\.nuget\\packages\\telegram.bot\\19.0.0\\telegram.bot.19.0.0.nupkg.sha512"
   ],
   "logs": []
 }
